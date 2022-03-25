@@ -32,7 +32,7 @@ describe("Test2", () => {
         });
 
         it("Is returning 4 when adding 2 + 3", () => {
-        assert.equal(2 + 3, 4);
+        assert.equal(2 + 3, 5);
         });
 
         it("Is returning 8 when multiplying 2 * 4", () => {
