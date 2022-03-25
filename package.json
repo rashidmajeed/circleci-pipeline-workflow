@@ -1,0 +1,27 @@
+{
+  "name": "nodejs-demo-app",
+  "version": "1.0.0",
+  "description": "nodejs demo",
+  "author": "Rashid Majeed",
+  "license": "MIT",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "build": "echo 'Build script executed Successfully!!!'",
+    "test": "mocha",
+    "test-ci": "mocha --reporter mocha-junit-reporter"
+  },
+  "keywords": [
+    "nodejs",
+    "bootstrap",
+    "express"
+  ],
+  "dependencies": {
+    "express": "^4.16.4"
+  },
+  "devDependencies": {
+    "mocha": "^9.2.2",
+    "mocha-junit-reporter": "^2.0.2",
+    "mochawesome": "^7.1.2"
+  }
+}

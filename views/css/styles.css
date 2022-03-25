@@ -1,0 +1,64 @@
+.navbar {
+	background: #780206;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #061161, #780206);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #061161, #780206); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  margin-bottom: 0;
+}
+
+body {
+  background: #4b6cb7;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #182848, #4b6cb7);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #182848, #4b6cb7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  color: #ffffff;
+  font-family: "Merriweather", sans-serif;
+}
+
+h1,
+h2 {
+  font-weight: bold;
+}
+
+p {
+  font-size: 16px;
+  color: #ffffff;
+}
+
+.jumbotron {
+	color: rgb(107, 24, 10);
+  text-align: center;
+}
+
+.jumbotron p {
+  color: rgb(54, 54, 54);
+  font-size: 26px;
+}
+
+.btn-primary {
+  color: #fff;
+  margin-bottom: 5px;
+  background: #ff416c; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #ff4b2b,
+    #ff416c
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #ff4b2b,
+    #ff416c
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+img,
+video,
+audio {
+  margin-top: 20px;
+  max-width: 80%;
+}
+
+div.caption {
+  float: left;
+  clear: both;
+}
